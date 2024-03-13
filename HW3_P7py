@@ -1,0 +1,12 @@
+def vowels(string):
+    j=0
+    vowels="aeiouAEIOU"
+    for char in string:
+        if char in vowels:
+            j+=1
+    return j
+
+string="hello"
+result = vowels(string)
+print(result)
+
