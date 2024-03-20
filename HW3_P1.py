@@ -6,3 +6,4 @@ def power_of_a_number(x,y):
     return result
 
 power_of_a_number(2,3)
+#result=8
